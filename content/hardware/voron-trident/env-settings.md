@@ -4,7 +4,7 @@ VoronTrident 打印机由 [Klipper](https://klipper3d.com/) 固件驱动，并�
 
 ### Mainsail
 
-![示例图：Mainsail 界面主页](mainsail.png)
+![示例图：Mainsail 界面主页](../../../static/media/mainsail.png)
 
 Mainsail 是一个为 Klipper 及其他子系统设计的驱动固件，并提供轻量级 Web 管理界面，但不支持插件的安装与使用（通常也并不需要）。
 
@@ -39,7 +39,7 @@ Mainsail 是一个为 Klipper 及其他子系统设计的驱动固件，并提�
 
 ### Fluidd
 
-![示例图：Fluidd 界面主页](fluidd.png)
+![示例图：Fluidd 界面主页](../../../static/media/fluidd.png)
 
 Fluidd 是一个为 Klipper 及其他子系统设计的驱动固件，并提供轻量级 Web 管理界面，但不支持插件的安装与使用（通常也并不需要）。与 Mainsail 非常相似，但具有不同的外观和感觉。
 
@@ -64,7 +64,7 @@ Fluidd 是一个为 Klipper 及其他子系统设计的驱动固件，并提供�
 
 ### Octoprint
 
-![示例图：Octoprint 界面主页](octoprint.png)
+![示例图：Octoprint 界面主页](../../../static/media/octoprint.png)
 
 Octoprint 是为嵌入型计算设备设计的更为通用的系统，当然也能为我们的打印机使用。它支持插件的安装与使用，但也需要上位机拥有更强大的性能（多核的 CPU 和大内存）。
 
@@ -194,13 +194,13 @@ square_corner_velocity: 10.0
 
 该清单应类似于以下内容：
 
-![示例图：命令“ls /dev/serial/by-id/”](mcu.png)
+![示例图：命令“ls /dev/serial/by-id/”](../../../static/media/mcu.png)
 
 >注意：如果设备标识符中包含“marlin”一词，则表示 Klipper 固件未正确加载。返回 [上一章节](content/hardware/voron-trident/env-settings.md) 并重新加载 Klipper 固件，然后再继续。
 
-4. 从终端窗口复制设备 ID（例如`usb-Klipper_lpc1768_1FB0000802094AAF07825E5DC52000F5-if00`）并粘贴到临时文本文件中。
-5. 打开配置文件并导航到该`[mcu]`部分。
-6. 找到`serial:`该值并将其替换/dev/serial/by-id/为您在步骤 1 中复制的 MCU 设备 ID。
+1. 从终端窗口复制设备 ID（例如`usb-Klipper_lpc1768_1FB0000802094AAF07825E5DC52000F5-if00`）并粘贴到临时文本文件中。
+2. 打开配置文件并导航到该`[mcu]`部分。
+3. 找到`serial:`该值并将其替换/dev/serial/by-id/为您在步骤 1 中复制的 MCU 设备 ID。
 
 它应如下所示：
 

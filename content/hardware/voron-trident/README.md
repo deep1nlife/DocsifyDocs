@@ -4,7 +4,7 @@ VORON（沃龙）是一个专注于 3D 打印机方案设计的开源项目。�
 
 ## 什么是 Voron Trident（沃龙三叉戟）
 
-![沃龙三叉戟外观示意图](voron-trident.png)
+![沃龙三叉戟外观示意图](../../../static/media/voron-trident.png)
 
 Voron Trident（沃龙三叉戟）是一种基于 CoreXY 固定龙门架和 Z 轴可移动热床的 3D 打印机结构。其热床通过 3 个丝杆固定和移动，故称“三叉戟”。
 

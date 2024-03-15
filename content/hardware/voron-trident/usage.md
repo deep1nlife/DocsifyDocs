@@ -4,7 +4,7 @@
 
 首先验证是否正确报告了温度。导航至 Octoprint/Mainsail 温度图。
 
-![示例图：验证温度界面](test-temperture.png)
+![示例图：验证温度界面](../../../static/media/test-temperture.png)
 
 ### 验证加热器
 

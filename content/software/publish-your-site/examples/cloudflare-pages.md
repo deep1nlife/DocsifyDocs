@@ -4,7 +4,7 @@
 
 进入 [Cloudflare](https://dash.cloudflare.com/sign-up/zh-CN) 注册页面进行账号注册。
 
-![示例图：Cloudflare 注册](cloudflare-signup.png)
+![示例图：Cloudflare 注册](../../../../static/media/cloudflare-signup.png)
 
 >提示：
 >
@@ -14,7 +14,7 @@
 
 ## 开通 Cloudflare Pages 服务并上传项目文件
 
-![Cloudflare Pages 项目上传步骤](cloudflare-upload.png)
+![Cloudflare Pages 项目上传步骤](../../../../static/media/cloudflare-upload.png)
 
 登录后依序，`首页`-`Workers 和 Pages`-`创建应用程序`-`Pages`-`上传资产`，跳转到 Cloudflare Pages 的创建页面。
 

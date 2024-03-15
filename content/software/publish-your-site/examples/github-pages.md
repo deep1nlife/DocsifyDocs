@@ -4,7 +4,7 @@
 
 选择在本地硬盘上创建仓库，仓库名称填入`你的用户名.github.io`（如`zhangsan`与`zhangsan.github.io`），选择任何你想存放在本地的文件夹位置，点击创建即可完成。
 
-![操作示意图：创建本地仓库](create-repository.png)
+![操作示意图：创建本地仓库](../../../../static/media/create-repository.png)
 
 ## 初始化仓库内容
 
@@ -16,7 +16,7 @@
 
 完成文档内容的编辑后回到 GitHub Desktop 应用界面。此时你将注意到应用中显示了刚才对`index.md`文件所做出的所有更改。接下来完成我们项目的首次“提交”工作，以生成项目快照，上传到托管平台。
 
-![操作示意图：初始化提交](init-commit.png)
+![操作示意图：初始化提交](../../../../static/media/init-commit.png)
 
 在标号①处输入一些文本用来描述本次“提交”（便于记录与后期查验工作），在标号②处点击“提交”。
 
@@ -31,7 +31,7 @@
 3. 在标号③处取消选择选项“Keep this code private”，使仓库成为公开可访问的状态。
 4. 在标号④处点击发布。
 
-![操作示意图：项目发布](github-pages-publish.png)
+![操作示意图：项目发布](../../../../static/media/github-pages-publish.png)
 
 >今后我们将在这个页面完成更新本地项目（pull）或推送更新到平台（push）的工作。
 

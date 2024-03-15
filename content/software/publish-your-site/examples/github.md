@@ -1,6 +1,6 @@
 ## 前言：什么是 Git
 
-![Git 工作流程示例图](git.png)
+![Git 工作流程示例图](../../../../static/media/git.png)
 
 这并不是在玩文字游戏，把它们拆开来讲是因为包括 GitHub 在内的 Gitee、Gitlab 和 Bitbucket 等一众在线代码项目托管平台都由`Git`工具衍生而来，也是我们使用这些平台的主要方式。
 
@@ -19,7 +19,7 @@
 >
 >上游仓库一般被设定为我们在线代码项目托管平台中创建的仓库，文件通过托管平台这个第三方在各个开发人员的设备上流转。
 
-![示意图：Git 与分布式开发](git-distri-dev.png)
+![示意图：Git 与分布式开发](../../../../static/media/git-distri-dev.png)
 
 ### Git 与版本控制
 
@@ -36,7 +36,7 @@
 - 项目协作：`GitHub`为我们提供了评论、问题跟踪、代码提交与代码合并等功能，可以通过这些功能进行项目的合作和交流。
 - 便捷的客户端：通过`GitHub`提供的 GitHub Desktop 工具，我们可以很方便的使用 Git 管理本地项目与使用`GitHub`平台。
 
-![示意图：Git 与版本控制](git-ver-ctl.png)
+![示意图：Git 与版本控制](../../../../static/media/git-ver-ctl.png)
 
 ## GitHub 的注册
 
@@ -52,6 +52,6 @@
 
 点击登录按钮将跳转到浏览器中，等待你授予其访问你 GitHub 账号的权限。
 
-![操作示例图：登录 GitHubDesktop](github-desktop-login.png)
+![操作示例图：登录 GitHubDesktop](../../../../static/media/github-desktop-login.png)
 
 至此，GitHub 平台的基础使用工作已经完成，下一步进行 [Jekyll 项目的初始化与部署工作](content/software/publish-your-site/examples/github-pages.md)。
