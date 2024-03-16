@@ -149,7 +149,8 @@ const sidebarExtPluginFunction = function(hook, vm) {
 
     //创建侧边栏
     const createSidebarExt = function(data) {
-        if (!config.visible)
+        var w = document.documentElement.scrollWidth || document.body.scrollTop;
+        if (!config.visible | w <= 1080)
             return;
 
         //创建元素节点

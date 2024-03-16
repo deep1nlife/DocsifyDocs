@@ -5,7 +5,7 @@
 
 >声明：本文档所描述的网站指的是，用户仅通过浏览器就能够随时随地查阅文档的「静态网页」。
 
-![网站访问原理图](../../../static/media/access-webSite.png)
+![网站访问原理图](../../../static/media/access-website.png)
 
 构成网站建设费用的最小要素：
 
